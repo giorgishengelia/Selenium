@@ -17,8 +17,8 @@ name = driver.find_element(By.NAME, value="fName")
 lastname = driver.find_element(By.NAME, value="lName")
 email = driver.find_element(By.NAME, value="email")
 # Sending keyboard input to Selenium
-name.send_keys("Georgi")
-lastname.send_keys("Shengi")
+name.send_keys("NameExample")
+lastname.send_keys("LastnameExample")
 email.send_keys("myemail@gmail.com")#, Keys.ENTER) <- To submit with using Enter key
 
 # Clicking the submit button 
